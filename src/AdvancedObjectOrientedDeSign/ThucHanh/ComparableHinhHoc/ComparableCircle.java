@@ -15,6 +15,7 @@ public class ComparableCircle extends Circle
         super(radius, color, filled);
     }
 
+    @Override
     public int compareTo(ComparableCircle o) {
         if (getRadius() > o.getRadius()) return 1;
         else if (getRadius() < o.getRadius()) return -1;

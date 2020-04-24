@@ -6,12 +6,17 @@ public class NamNhuan {
         System.out.println("Nhập num");
         int num = scanner.nextInt();
 
-        if (num % 4 == 0){
-            if (num %100 != 0){
+        boolean b = num % 4 == 0;
+        if (b){
+            boolean b1 = num % 100 != 0;
+            if (b1){
                 System.out.println(num + " là năm nhuận");
-            }else if (num % 400 == 0){
-                System.out.println(num + " là năm nhuận");
-            }else System.out.println(num + " không phải là năm nhuận");
+            }else {
+                boolean b2 = num % 400 == 0;
+                if (b2){
+                    System.out.println(num + " là năm nhuận");
+                }else System.out.println(num + " không phải là năm nhuận");
+            }
         }else System.out.println(num + " không phải là năm nhuận");
     }
 }

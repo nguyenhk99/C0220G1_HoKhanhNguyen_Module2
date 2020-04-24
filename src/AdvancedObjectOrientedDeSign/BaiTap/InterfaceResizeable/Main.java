@@ -2,17 +2,21 @@ package AdvancedObjectOrientedDeSign.BaiTap.InterfaceResizeable;
 
 public class Main {
     public static void main(String[] args) {
-       Resizeable[] resizeables = new Resizeable[3];
-       resizeables[0] = new Circle();
-       resizeables[1] = new Rectangle();
-       resizeables[2] = new Square();
+        Shape[] shapes = new Shape[3];
+        shapes[0] = new Circle(3);
+        shapes[1] = new Rectangle(5);
+        shapes[2] = new Square(10);
 
-       for(int i = 0;i<resizeables.length;i++){
-           resizeables[i].resize((Math.random()*99)+1);
-       }
+        System.out.println("Truoc khi thay doi");
 
-        for(int i = 0;i<resizeables.length;i++){
-            System.out.println(resizeables[i].getSize());
+        for (int i = 0; i < shapes.length; i++) {
+            System.out.println(shapes[i].getSize());
+        }
+
+        System.out.println("Sau khi thay doi");
+        for(int i=0;i<shapes.length;i++){
+            shapes[i].resize(10);
+            System.out.println(shapes[i].getSize());
         }
     }
 }

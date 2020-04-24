@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="commons-collections4-4.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/CaseStudy/Lib/commons-collections4-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/CaseStudy/Lib/commons-collections4-4.1.jar!/org" />
+      <root url="jar://$PROJECT_DIR$/src/CaseStudy/Lib/commons-lang3-3.9.jar!/" />
+      <root url="file://$PROJECT_DIR$/src/CaseStudy/Lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/src/CaseStudy/Lib" recursive="false" />
+  </library>
+</component>

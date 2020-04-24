@@ -1,7 +1,15 @@
 package AdvancedObjectOrientedDeSign.BaiTap.InterfaceResizeable;
 
-public class Rectangle implements Resizeable{
-    private double size = 1;
+public class Rectangle  extends Shape implements Resizeable{
+    public double size = 1;
+
+    public Rectangle(double size) {
+        this.size = size;
+    }
+
+    public Rectangle() {
+    }
+
     @Override
     public void resize(double percent) {
         this.size += percent;
@@ -14,4 +22,6 @@ public class Rectangle implements Resizeable{
     public void setSize(double size) {
         this.size = size;
     }
+
+
 }

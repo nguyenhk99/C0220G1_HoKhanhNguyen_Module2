@@ -1,12 +1,18 @@
 package AdvancedObjectOrientedDeSign.BaiTap.InterfaceResizeable;
 
-public class Circle implements Resizeable{
-    private double size = 1;
+public class Circle extends Shape implements Resizeable{
+    public double size = 1;
+
+    public Circle(double size) {
+        this.size = size;
+    }
+
     @Override
     public void resize(double percent) {
         this.size += percent;
     }
 
+    @Override
     public double getSize() {
         return size;
     }
@@ -14,4 +20,5 @@ public class Circle implements Resizeable{
     public void setSize(double size) {
         this.size = size;
     }
+
 }

@@ -3,7 +3,7 @@ package AdvancedObjectOrientedDeSign.BaiTap.InterfaceColorable;
 public class Main {
     public static void main(String[] args) {
         Shape[] shapes = new Shape[3];
-        shapes[0] = new Circle();
+        shapes[0] = new Circle(3,"green",true);
         shapes[1] = new Rectangle();
         shapes[2] = new Square();
 
@@ -11,7 +11,7 @@ public class Main {
             if (shapes[i] instanceof Colorable) {
                 ((Square)shapes[i]).howToColor();
             } else {
-                System.out.println(shapes[i].getArea);
+                System.out.println(shapes[i].getArea());
             }
         }
     }

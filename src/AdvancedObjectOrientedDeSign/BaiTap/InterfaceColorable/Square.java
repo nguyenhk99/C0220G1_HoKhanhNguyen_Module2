@@ -1,6 +1,6 @@
 package AdvancedObjectOrientedDeSign.BaiTap.InterfaceColorable;
 
-public class Square extends Rectangle implements Colorable{
+public class Square extends Rectangle implements Colorable {
     @Override
     public void howToColor() {
         System.out.println("Color all four sides.");
@@ -26,6 +26,7 @@ public class Square extends Rectangle implements Colorable{
         super.setLength(side);
     }
 
+    @Override
     public double getArea() {
         return getSide() * getSide();
     }
