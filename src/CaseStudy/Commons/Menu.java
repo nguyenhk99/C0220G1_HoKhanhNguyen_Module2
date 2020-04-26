@@ -21,10 +21,12 @@ public class Menu {
         + "\n3.Add New Room" + "\n4.Back to menu" + "\n5.Exit");
         System.out.println("------- Select one -------");
     }
+
     public static void displayMenuBackToMain(){
         System.out.println("------ Enter to continue ------");
         ScannerUtils.scanner.nextLine();
     }
+
     public static void displayMenuShowServices() {
         System.out.println("1.Show all Villa");
         System.out.println("2.Show all House");
@@ -37,4 +39,18 @@ public class Menu {
         System.out.println("Enter your choice:");
     }
 
+    public static void displayMenuBooking(){
+        System.out.println("1.Booking Villa" +
+                "\n2.Booking House" +
+                "\n3.Booking Room");
+        System.out.println("---- Choose Services Booking ----");
+    }
+
+    public static void displayMenuBookingMovieTicket4D(){
+        System.out.println("--------- Booking Movie Ticked 4D Menu ---------");
+        System.out.println("1.Booking movie ticket" +
+                "\n2.Show customer booking movie ticket" +
+                "\n3.Exit");
+        System.out.println("----- Choose one -----");
+    }
 }

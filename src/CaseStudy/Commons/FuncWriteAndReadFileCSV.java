@@ -4,12 +4,13 @@ import CaseStudy.Models.Customer;
 import CaseStudy.Models.House;
 import CaseStudy.Models.Room;
 import CaseStudy.Models.Villa;
+import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.Writer;
+import java.io.*;
 import java.util.ArrayList;
+import java.util.PropertyPermission;
+import java.util.TreeSet;
 
 public class FuncWriteAndReadFileCSV {
     public static final char DEFAULT_SEPARATOR = ',';
@@ -28,6 +29,9 @@ public class FuncWriteAndReadFileCSV {
     public static String[] headerRecordRoom = new String[]{"ID", "ServiceName", "Area", "RentalCost", "NumberOfPeople", "NumberOfDay", "FreeService"};
     public static String[] headerRecordCustomer = new String[]{"FullName", "Birthday", "Gender", "ID Card", "Phone", "Email", "Customer Type", "Address"};
     public static String[] headerRecordEmployee = new String[]{"ID", "FullName", "Age", "Address"};
+    public static String[] headerRecordBooking = new String[]{"FullName", "Birthday", "Gender", "ID Card", "Phone", "Email", "Customer Type", "Address", "ID"
+            , "ServiceName", "Area", "RentalCost", "MaxNumberOfPeople"};
+
 
     public static void writeVillaToFileCSV(ArrayList<Villa> arrayList) {
         try (Writer writer = new FileWriter(pathVilla);
@@ -86,7 +90,7 @@ public class FuncWriteAndReadFileCSV {
         }
     }
 
-    public static void writeCustomerToFileCSV(ArrayList<Customer> arrayList){
+    public static void writeCustomerToFileCSV(ArrayList<Customer> arrayList) {
         try (Writer writer = new FileWriter(pathCustomer);
              CSVWriter csvWriter = new CSVWriter(writer,
                      CSVWriter.DEFAULT_SEPARATOR,
@@ -96,12 +100,106 @@ public class FuncWriteAndReadFileCSV {
             csvWriter.writeNext(headerRecordCustomer);
             for (Customer customer : arrayList) {
                 csvWriter.writeNext(new String[]{
-                        customer.getFullName(), customer.getBirthDay(),customer.getGender(), String.valueOf(customer.getIdCard()), String.valueOf(customer.getPhone()), String.valueOf(customer.getEmail()),
-                        String.valueOf(customer.getCustomerType()),customer.getAddress()
+                        customer.getFullName(), customer.getBirthDay(), customer.getGender(), String.valueOf(customer.getIdCard()), String.valueOf(customer.getPhone()), String.valueOf(customer.getEmail()),
+                        String.valueOf(customer.getCustomerType()), customer.getAddress()
                 });
             }
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
     }
+
+    public static void writeBookingToFileCSV(ArrayList<Customer> arrayList) {
+        try (Writer writer = new FileWriter(pathBooking);
+             CSVWriter csvWriter = new CSVWriter(writer,
+                     CSVWriter.DEFAULT_SEPARATOR,
+                     CSVWriter.DEFAULT_QUOTE_CHARACTER,
+                     CSVWriter.DEFAULT_ESCAPE_CHARACTER,
+                     CSVWriter.DEFAULT_LINE_END);) {
+            csvWriter.writeNext(headerRecordBooking);
+            for (Customer customer : arrayList) {
+                csvWriter.writeNext(new String[]{
+                        customer.getFullName(), customer.getBirthDay(), customer.getGender(), String.valueOf(customer.getIdCard()), String.valueOf(customer.getPhone()), String.valueOf(customer.getEmail()),
+                        String.valueOf(customer.getCustomerType()), customer.getAddress(),
+                        customer.getService().getId(), customer.getService().getName(), String.valueOf(customer.getService().getArea()), String.valueOf(customer.getService().getRentalCost()),
+                        String.valueOf(customer.getService().getMaxNumberOfPeople())
+                });
+            }
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public static ArrayList<Customer> getBookingFromCSV() {
+        ArrayList<Customer> listCustomer = new ArrayList<>();
+        try {
+            Reader reader = new FileReader(pathBooking);
+            CSVReader csvReader = new CSVReader(reader);
+            String[] line;
+            csvReader.skip(1);
+            while ((line = csvReader.readNext()) != null) {
+                Customer customer = new Customer();
+                Villa villa = new Villa();
+                int pos = 0;
+                customer.setFullName(line[pos++]);
+                customer.setBirthDay(line[pos++]);
+                customer.setGender(line[pos++]);
+                customer.setIdCard(line[pos++]);
+                customer.setPhone(line[pos++]);
+                customer.setEmail(line[pos++]);
+                customer.setAddress(line[pos++]);
+                customer.setCustomerType(line[pos++]);
+
+                villa.setId(line[pos++]);
+                villa.setName(line[pos++]);
+                villa.setArea(Double.parseDouble(line[pos++]));
+                villa.setRentalCost(Double.parseDouble(line[pos++]));
+                villa.setMaxNumberOfPeople(Integer.parseInt(line[pos++]));
+                customer.setService(villa);
+                listCustomer.add(customer);
+            }
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+        return listCustomer;
+    }
+
+    public static TreeSet<String> getAllNameServiceFromCSV(String path) {
+        BufferedReader br = null;
+        TreeSet<String> result = new TreeSet();
+
+        try {
+            String line;
+            br = new BufferedReader(new FileReader(path));
+
+            while ((line = br.readLine()) != null) {
+                if (getNameServiceFromFile(line).equals("ServiceName")) {
+                    continue;
+                }
+                result.add(getNameServiceFromFile(line));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try{
+                if(br != null){
+                    br.close();
+                }
+            }catch (IOException exception){
+                exception.printStackTrace();
+            }
+        }
+//        result.descendingSet();
+        return result;
+    }
+
+    private static String getNameServiceFromFile(String csvLine) {
+        String name = "";
+        if(csvLine != null){
+            String[] splitData = csvLine.split(";");
+            name = splitData[1];
+        }
+        return name;
+    }
+
 }

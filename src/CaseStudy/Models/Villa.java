@@ -23,7 +23,7 @@ public class Villa extends Services {
         this.roomStandard = roomStandard;
     }
 
-    public double getAreaPool() {
+    public Double getAreaPool() {
         return areaPool;
     }
 
@@ -38,6 +38,7 @@ public class Villa extends Services {
     public void setNumberOfFloor(int numberOfFloor) {
         this.numberOfFloor = numberOfFloor;
     }
+
 
     @Override
     public void showInfo() {

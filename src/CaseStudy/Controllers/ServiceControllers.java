@@ -14,6 +14,7 @@ import java.util.Scanner;
 import java.util.UUID;
 
 import static CaseStudy.Commons.FuncGeneric.displayList;
+import static CaseStudy.Commons.FuncGeneric.showAllNameNotDuplicate;
 import static CaseStudy.Commons.Menu.displayMainMenu;
 import static CaseStudy.Commons.Menu.displayMenuAddNewService;
 import static CaseStudy.Controllers.MainController.backMainMenu;
@@ -188,15 +189,15 @@ public class ServiceControllers {
     }
 
     private static void showAllNameHouse() {
-
+        showAllNameNotDuplicate(FuncGeneric.EntityType.HOUSE);
     }
 
     private static void showAllNameRoom() {
-
+        showAllNameNotDuplicate(FuncGeneric.EntityType.ROOM);
     }
 
     private static void showAllNameVilla() {
-
+        showAllNameNotDuplicate(FuncGeneric.EntityType.VILLA);
     }
 
     private static void showRoom() {

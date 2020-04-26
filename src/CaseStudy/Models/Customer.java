@@ -9,12 +9,12 @@ public class Customer {
     private String email;
     private String customerType;
     private String address;
-    private String service;
+    private Services service;
 
     public Customer() {
     }
 
-    public Customer(String fullName, String birthDay, String gender, String idCard, String phone, String email, String customerType, String address, String service) {
+    public Customer(String fullName, String birthDay, String gender, String idCard, String phone, String email, String customerType, String address, Services service) {
         this.fullName = fullName;
         this.birthDay = birthDay;
         this.gender = gender;
@@ -90,11 +90,11 @@ public class Customer {
         this.address = address;
     }
 
-    public String getService() {
+    public Services getService() {
         return service;
     }
 
-    public void setService(String service) {
+    public void setService(Services service) {
         this.service = service;
     }
 

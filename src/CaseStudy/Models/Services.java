@@ -9,6 +9,10 @@ public abstract class Services {
     private double area;
     private double rentalCost;
 
+    public Services() {
+    }
+
+
     public Services(String id, String name, String email, int maxNumberOfPeople, int numberOfDay, double area) {
         this.id = id;
         this.nameService = name;
@@ -16,9 +20,6 @@ public abstract class Services {
         this.maxNumberOfPeople = maxNumberOfPeople;
         this.numberOfDay = numberOfDay;
         this.area = area;
-    }
-
-    public Services() {
     }
 
     public double getRentalCost() {

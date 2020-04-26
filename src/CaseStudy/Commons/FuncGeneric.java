@@ -1,9 +1,6 @@
 package CaseStudy.Commons;
 
-import CaseStudy.Models.Customer;
-import CaseStudy.Models.House;
-import CaseStudy.Models.Room;
-import CaseStudy.Models.Villa;
+import CaseStudy.Models.*;
 import com.opencsv.bean.ColumnPositionMappingStrategy;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
@@ -13,8 +10,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.TreeSet;
 
 import static CaseStudy.Commons.FuncWriteAndReadFileCSV.*;
+import static CaseStudy.Controllers.MainController.backMainMenu;
 
 public class FuncGeneric {
     public enum EntityType {
@@ -83,10 +82,10 @@ public class FuncGeneric {
                 strategy.setType((Class<? extends E>) Customer.class);
                 break;
             }
-//            case EMPLOYEE: {
-//                strategy.setType((Class<? extends E>) Employee.class);
-//                break;
-//            }
+            case EMPLOYEE: {
+                strategy.setType((Class<? extends E>) Employee.class);
+                break;
+            }
             default:
         }
         strategy.setColumnMapping(headerRecord);
@@ -129,5 +128,35 @@ public class FuncGeneric {
             i++;
             System.out.println("-------------------------");
         }
+    }
+
+    public static void showAllNameNotDuplicate(EntityType entityType){
+        String csvPath = "";
+        switch (entityType){
+            case VILLA:{
+                csvPath = pathVilla;
+                break;
+            }
+            case ROOM:{
+                csvPath = pathRoom;
+                break;
+            }
+            case HOUSE:{
+                csvPath = pathHouse;
+                break;
+            }
+        }
+        Path path = Paths.get(csvPath);
+        if(!Files.exists(path)){
+            System.out.println("---- File CSV path does not Exists! -----");
+            backMainMenu();
+        }
+        TreeSet<String> treeSet = FuncWriteAndReadFileCSV.getAllNameServiceFromCSV(csvPath);
+        System.out.println("------ List Name Service Not Duplicate ------");
+        for(String str : treeSet){
+            System.out.println(str);
+            System.out.println("----------------");
+        }
+        backMainMenu();
     }
 }

@@ -1,7 +1,6 @@
 package CaseStudy.Commons;
 
-import CaseStudy.CustomerException.BirthdayException;
-import CaseStudy.CustomerException.NameException;
+import CaseStudy.CustomerException.*;
 import CaseStudy.Models.House;
 import CaseStudy.Models.Room;
 import CaseStudy.Models.Services;
@@ -37,7 +36,17 @@ public class FuncValidation {
     }
 
     public static boolean isValidGender(String str){
-        pattern = "^(Male|Female|Unknow)/i";
+        pattern = "^(?i:Male|Female|Unknow)$";
+        return str.matches(pattern);
+    }
+
+    public static boolean isValidIdCard(String str){
+        pattern = "^\\d{9}$";
+        return str.matches(pattern);
+    }
+
+    public static boolean isValidEmail(String str){
+        pattern = "^[a-z0-9_]+@[a-z]+\\.[a-z]+$";
         return str.matches(pattern);
     }
 
@@ -141,5 +150,48 @@ public class FuncValidation {
         return result;
     }
 
+    public static String getValidGender(String str, String errMess){
+        String result = "";
+        System.out.println(str);
+        try{
+            result = ScannerUtils.scanner.nextLine();
+            if(!isValidGender(result)){
+                throw new GenderException(errMess);
+            }
+        }catch (GenderException e){
+            System.out.println(errMess);
+            result = getValidGender(str,errMess);
+        }
+        return result;
+    }
 
+    public static String getValidIdCard(String str,String errMess){
+        String result = "";
+        System.out.println(str);
+        try{
+            result = ScannerUtils.scanner.nextLine();
+            if(!isValidIdCard(result)){
+                throw new IdCardException(errMess);
+            }
+        }catch (IdCardException e){
+            System.out.println(errMess);
+            result = getValidIdCard(str,errMess);
+        }
+        return result;
+    }
+
+    public static String getValidEmail(String str,String errMess){
+        String result = "";
+        System.out.println(str);
+        try{
+            result = ScannerUtils.scanner.nextLine();
+            if(!isValidEmail(result)){
+                throw new EmailException(errMess);
+            }
+        }catch (EmailException e){
+            System.out.println(errMess);
+            result = getValidEmail(str,errMess);
+        }
+        return result;
+    }
 }
