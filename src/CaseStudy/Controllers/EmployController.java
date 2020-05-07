@@ -1,12 +1,11 @@
 package CaseStudy.Controllers;
 
 import CaseStudy.Commons.FuncGeneric;
+import CaseStudy.Commons.ScannerUtils;
+import CaseStudy.FileCSV.Resume;
 import CaseStudy.Models.Employee;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Stack;
+import java.util.*;
 
 import static CaseStudy.Controllers.MainController.backMainMenu;
 
@@ -28,6 +27,24 @@ public class EmployController {
     }
 
     public static void findEmployeeFromResume(){
-//        Stack<Employee> employeeStack = Resume.getAllEmployee();
+        Stack<Employee> employeeStack = Resume.getAllEmployee();
+        System.out.println("Enter key of Employee: ");
+        String inputSearch = ScannerUtils.scanner.nextLine();
+        try{
+            while (true){
+                boolean foundByID =  employeeStack.peek().getId().contains(inputSearch);
+                if(!foundByID){
+                employeeStack.pop();
+                }else {
+                    System.out.println("---- founded employee below :");
+                    System.out.println(employeeStack.peek().toString());
+                    break;
+                }
+            }
+        }catch (EmptyStackException ex){
+            System.out.println("Key invalid, please try again");
+            findEmployeeFromResume();
+        }
+        backMainMenu();
     }
 }

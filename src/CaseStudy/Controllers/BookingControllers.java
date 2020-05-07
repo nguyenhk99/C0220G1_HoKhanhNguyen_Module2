@@ -75,6 +75,7 @@ public class BookingControllers {
     }
 
     private static void processMenuBookingMovieTicket4D() {
+        ScannerUtils.scanner.nextLine();
         switch (ScannerUtils.scanner.nextLine()) {
             case "1": {
                 addBookingMovieTicket4D();

@@ -7,6 +7,7 @@ import static CaseStudy.Controllers.BookingControllers.addNewBooking;
 import static CaseStudy.Controllers.BookingControllers.bookingMovieTicket4D;
 import static CaseStudy.Controllers.CustomerControllers.addNewCustomer;
 import static CaseStudy.Controllers.CustomerControllers.showInformationCustomers;
+import static CaseStudy.Controllers.EmployController.findEmployeeFromResume;
 import static CaseStudy.Controllers.EmployeeController.findEmployee;
 import static CaseStudy.Controllers.EmployeeController.showInformationEmployees;
 import static CaseStudy.Controllers.ServiceControllers.addNewServies;
@@ -55,7 +56,7 @@ public class MainController {
                break;
            }
            case 8: {
-               findEmployee();
+               findEmployeeFromResume();
                break;
            }
            case 9: {
