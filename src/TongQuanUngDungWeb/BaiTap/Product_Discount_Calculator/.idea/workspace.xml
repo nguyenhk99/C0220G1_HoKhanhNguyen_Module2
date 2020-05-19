@@ -6,12 +6,38 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2879ad0f-4473-49e8-8e83-5edfa68fc185" name="Default Changelist" comment="" />
+    <list default="true" id="2879ad0f-4473-49e8-8e83-5edfa68fc185" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/BookingControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/BookingControllers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/EmployController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/EmployController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/Test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/Test/Nguyen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/Module2/Test/Nguyen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Product_Discount_Calculator_war_exploded/WEB-INF/classes/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Product_Discount_Calculator_war_exploded/WEB-INF/classes/CalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Product_Discount_Calculator_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Product_Discount_Calculator_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Product_Discount_Calculator/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Product_Discount_Calculator/CalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -21,10 +47,20 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1bg3uy5CZihCte0md6K5cnSRhua" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JSPVàJSTL/BaiTap/Calculator" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Codegym\Module2\src\TongQuanUngDungWeb\BaiTap\Product_Discount_Calculator\web" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,10 +161,28 @@
       <workItem from="1589040140819" duration="1164000" />
       <workItem from="1589159518595" duration="2735000" />
       <workItem from="1589164497433" duration="1000" />
+      <workItem from="1589167249480" duration="3181000" />
+      <workItem from="1589171318230" duration="1072000" />
+      <workItem from="1589184501366" duration="119000" />
+      <workItem from="1589215931939" duration="276000" />
+      <workItem from="1589245528817" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

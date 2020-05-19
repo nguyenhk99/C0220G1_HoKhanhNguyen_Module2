@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84b0e44e-d1f4-4551-90bc-f81790197d44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/MayTinhCaNhan/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/MayTinhCaNhan/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/MayTinhCaNhan/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/MayTinhCaNhan/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/MayTinhCaNhan/MayTinhCaNhan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/MayTinhCaNhan/out/production/MayTinhCaNhan/controller/CalculatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/MayTinhCaNhan/out/production/MayTinhCaNhan/service/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/MayTinhCaNhan/out/production/MayTinhCaNhan/service/CalculatorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/MayTinhCaNhan/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/MayTinhCaNhan/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BaiTap/sandwitch/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.idea/modules/UploadFile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.idea/modules/UploadFile.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/views/_menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/views/uploadMultiFile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/views/uploadOneFile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/views/uploadResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadFile/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidat/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidat/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidat/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-email-validae/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-email-validate/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-email-validate/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-email-validate/.idea/modules/spring-email-validation.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-email-validate/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-email-validate/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-email-validate/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-email-validate/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-email-validation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/modules/spring-timezone.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/src/main/java/controller/TimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/src/main/java/controller/TimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/src/main/webapp/WEB-INF/views/worldclock.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/classes/controller/TimeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/classes/controller/TimeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/lib/spring-aop-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/lib/spring-beans-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/lib/spring-context-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/lib/spring-core-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/lib/spring-expression-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/lib/spring-web-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/lib/spring-webmvc-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/views/worldclock.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/target/timzone/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timzone/timzone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVC/BaiTap/TuDienDonGian/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVC/BaiTap/TuDienDonGian/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVC/BaiTap/UngDungChuyenDoiTienTe/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVC/BaiTap/UngDungChuyenDoiTienTe/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVC/ThucHanh/spring-greeting/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVC/ThucHanh/spring-greeting/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/BookingControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/BookingControllers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/EmployController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/EmployController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/Test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/Test/Nguyen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/Module2/Test/Nguyen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/artifacts/Product_Discount_Calculator_war_exploded/WEB-INF/classes/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/artifacts/Product_Discount_Calculator_war_exploded/WEB-INF/classes/CalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/artifacts/Product_Discount_Calculator_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/artifacts/Product_Discount_Calculator_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/production/Product_Discount_Calculator/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/production/Product_Discount_Calculator/CalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/src/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/src/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/web/index.jsp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Codegym\Module2\src\SpringController\ThucHanh\test\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1c2ojjchp6RZb67FbWMbV5ezVbh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UploadFile" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Codegym\Module2\src\SpringController\ThucHanh\test\src\main\webapp\WEB-INF" />
+      <recent name="D:\Codegym\Module2\src\SpringController\ThucHanh\test\src\main\webapp" />
+      <recent name="D:\Codegym\Module2\src\SpringController\ThucHanh\test\src\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Codegym\Module2\src\SpringController\ThucHanh\test\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : com.codegym : test-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_test" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65116" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.codegym : test-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84b0e44e-d1f4-4551-90bc-f81790197d44" name="Default Changelist" comment="" />
+      <created>1589736185523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589736185523</updated>
+      <workItem from="1589736189588" duration="1106000" />
+      <workItem from="1589764406886" duration="231000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

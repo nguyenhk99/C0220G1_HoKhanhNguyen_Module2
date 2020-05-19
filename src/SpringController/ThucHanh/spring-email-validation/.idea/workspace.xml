@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31add328-4114-4d97-b4c4-4752c4dbd4d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../emailvalidat/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidat/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidat/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailvalidate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVC/BaiTap/TuDienDonGian/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVC/BaiTap/TuDienDonGian/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVC/BaiTap/UngDungChuyenDoiTienTe/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVC/BaiTap/UngDungChuyenDoiTienTe/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVC/ThucHanh/spring-greeting/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVC/ThucHanh/spring-greeting/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/BookingControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/BookingControllers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/EmployController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/EmployController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/Module2/CaseStudy/Controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/Test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/Module2/Test/Nguyen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/Module2/Test/Nguyen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/artifacts/Product_Discount_Calculator_war_exploded/WEB-INF/classes/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/artifacts/Product_Discount_Calculator_war_exploded/WEB-INF/classes/CalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/artifacts/Product_Discount_Calculator_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/artifacts/Product_Discount_Calculator_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/production/Product_Discount_Calculator/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/production/Product_Discount_Calculator/CalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/src/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/src/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/web/index.jsp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1bsqw7HYiKHZbyYctELRba9m8iS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31add328-4114-4d97-b4c4-4752c4dbd4d5" name="Default Changelist" comment="" />
+      <created>1589431384316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589431384316</updated>
+      <workItem from="1589431387911" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

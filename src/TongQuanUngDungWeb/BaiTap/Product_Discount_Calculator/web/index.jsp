@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: TECHNOLOGY
@@ -11,7 +12,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  <form action = "/display-discount" method="post">
+  <form action = "/calculator.jsp" >
     <label>Product Description</label>
     <input type="text" name = "productDescription" placeholder="Product Description"><br>
     <label>List Price</label>

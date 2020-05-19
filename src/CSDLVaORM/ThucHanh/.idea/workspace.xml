@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bb6ad78-326d-4930-a2c4-037a11aaf062" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/MayTinhCaNhan/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/MayTinhCaNhan/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/MayTinhCaNhan/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/MayTinhCaNhan/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/MayTinhCaNhan/MayTinhCaNhan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/MayTinhCaNhan/out/production/MayTinhCaNhan/controller/CalculatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/MayTinhCaNhan/out/production/MayTinhCaNhan/service/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/MayTinhCaNhan/out/production/MayTinhCaNhan/service/CalculatorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/MayTinhCaNhan/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/MayTinhCaNhan/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/sandwitch/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.idea/modules/UploadFile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.idea/modules/UploadFile.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/src/main/webapp/WEB-INF/views/_menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/src/main/webapp/WEB-INF/views/uploadMultiFile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/src/main/webapp/WEB-INF/views/uploadOneFile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/src/main/webapp/WEB-INF/views/uploadResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/UploadFile/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/emailvalidat/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/emailvalidat/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/emailvalidat/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/emailvalidate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-email-validae/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-email-validate/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-email-validate/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-email-validate/.idea/modules/spring-email-validation.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-email-validate/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-email-validate/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-email-validate/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-email-validate/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-email-validation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.idea/modules/spring-mvc-form-tutorial1.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/build/classes/java/main/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/build/classes/java/main/model/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/build/libs/spring-mvc-form-tutorial1-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/src/main/java/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-mvc-form-tutorial1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.idea/modules/spring-timezone.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/src/main/java/controller/TimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/spring-timezone/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/src/main/java/controller/TimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/src/main/webapp/WEB-INF/views/worldclock.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/classes/controller/TimeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/classes/controller/TimeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/lib/spring-aop-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/lib/spring-beans-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/lib/spring-context-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/lib/spring-core-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/lib/spring-expression-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/lib/spring-web-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/lib/spring-webmvc-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/views/worldclock.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/target/timzone/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringController/ThucHanh/timzone/timzone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringMVC/BaiTap/TuDienDonGian/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringMVC/BaiTap/TuDienDonGian/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringMVC/BaiTap/UngDungChuyenDoiTienTe/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringMVC/BaiTap/UngDungChuyenDoiTienTe/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringMVC/ThucHanh/spring-greeting/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringMVC/ThucHanh/spring-greeting/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.idea/modules/QuanLySanPham.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/build/classes/java/main/com/codegym/controllers/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/build/classes/java/main/com/codegym/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/build/classes/java/main/com/codegym/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/build/classes/java/main/com/codegym/service/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/java/com/codegym/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/java/com/codegym/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.idea/modules/customer-manager.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/build/classes/java/main/com/codegym/AppConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/build/classes/java/main/controller/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/build/classes/java/main/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/build/classes/java/main/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/build/classes/java/main/service/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/build/libs/customer-manager-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/java/com/codegym/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/java/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ViewsAndThymeleaf/ThucHanh/customer-manager/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Module2/CaseStudy/Controllers/BookingControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../out/production/Module2/CaseStudy/Controllers/BookingControllers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Module2/CaseStudy/Controllers/EmployController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../out/production/Module2/CaseStudy/Controllers/EmployController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Module2/CaseStudy/Controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../out/production/Module2/CaseStudy/Controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Module2/Test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Module2/Test/Nguyen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../out/production/Module2/Test/Nguyen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/artifacts/Product_Discount_Calculator_war_exploded/WEB-INF/classes/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/artifacts/Product_Discount_Calculator_war_exploded/WEB-INF/classes/CalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/artifacts/Product_Discount_Calculator_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/artifacts/Product_Discount_Calculator_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/production/Product_Discount_Calculator/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/out/production/Product_Discount_Calculator/CalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/src/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/src/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/BaiTap/Product_Discount_Calculator/web/index.jsp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1c6rC3B0EoGUzDIyU9SMx8mrrBl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="D:/Codegym/Module2/src/CSDLVaORM/ThucHanh/customer-management/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/customer-management/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="build (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="ThucHanh" />
+      <setting name="path" value="file://$PROJECT_DIR$/customer-management/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/customer-management" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="ThucHanh" />
+      <setting name="path" value="file://$PROJECT_DIR$/customer-management/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/customer-management" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ThucHanh:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ThucHanh_5" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58475" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ThucHanh:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ThucHanh:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_ThucHanh" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58475" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ThucHanh:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.D:/Codegym/Module2/src/CSDLVaORM/ThucHanh/customer-management/build.gradle" />
+      <item itemvalue="Groovy.build" />
+      <item itemvalue="Groovy.build (1)" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.D:/Codegym/Module2/src/CSDLVaORM/ThucHanh/customer-management/build.gradle" />
+        <item itemvalue="Groovy.build (1)" />
+        <item itemvalue="Groovy.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bb6ad78-326d-4930-a2c4-037a11aaf062" name="Default Changelist" comment="" />
+      <created>1589859752129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589859752129</updated>
+      <workItem from="1589859755023" duration="472000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ThucHanh$D__Codegym_Module2_src_CSDLVaORM_ThucHanh_customer_management_build_gradle.ic" NAME="$PROJECT_DIR$/customer-management/build.gradle Coverage Results" MODIFIED="1589860044284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
