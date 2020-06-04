@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="index:: head">
+</head>
+<style>
+    a.page1:hover {
+        background-color: #7abaff;
+    }
+
+    button.create1:hover {
+        background-color: #7abaff;
+    }
+
+    th, td {
+        color: white;
+    }
+</style>
+<body>
+<table style="width: 1000px;text-align: center;height: 300px;left: 20%;top: 20%;position: absolute"
+       class="table table-striped" border="1">
+    <thead>
+    <tr style="background: #7abaff;color: white">
+        <th scope="col">Service Name</th>
+        <th scope="col">Area</th>
+        <th scope="col">Number Of Floors</th>
+        <th scope="col">Max Of People</th>
+        <th scope="col">Cost</th>
+        <th scope="col">Status</th>
+        <th scope="col">Rent Name</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <th:block th:each="service1 : ${service}">
+        <tr>
+            <th><a th:href="@{/service/like/__${service1.idService}__}"  style="width: 150px;color: white" th:text="${service1.name}"></a></th>
+            <td th:text="${service1.area}"></td>
+            <td th:text="${service1.numberOfFloor}"></td>
+            <td th:text="${service1.maxOfPeople}"></td>
+            <td th:text="${service1.cost}"></td>
+            <td th:text="${service1.status}"></td>
+            <td th:text="${service1.kieuthue.nameRent}"></td>
+            <td><a style="color: white" th:href="@{/service/edit/__${service1.idService}__}">Edit</a></td>
+            <td><a style="color: white" th:href="@{/service/delete/__${service1.idService}__}">Delete</a></td>
+        </tr>
+    </th:block>
+    </tbody>
+</table>
+<div style="position: absolute;left: 48%;top: 61%">
+    <a class="page1" style="color: white" th:href="@{/service(page=${service.number - 1})}"
+       th:if="${service.hasPrevious()}">Previous</a>
+    <a class="page1" th:href="@{/service(page=${service.number})}"
+       th:text="${service.number+1}"></a>/
+    <a class="page1" style="color: white" th:href="@{/service(page=${service.totalPages - 1})}"
+       th:text="${service.totalPages}"></a>
+    <a class="page1" style="color: white" th:href="@{/service(page=${service.number + 1})}"
+       th:if="${service.hasNext()}">Next</a>
+</div>
+<a style="position: absolute;left: 65%;top: 61%" th:href="@{/service/create}">
+    <button style="background: none;border: #7abaff" class="btn btn-primary mb-2">Create New Service</button>
+</a>
+<form style="left: 20%;top: 61%;position: absolute" th:action="@{/service}" method="get">
+    <input th:name="search" type="text" placeholder="Search">
+    <button class="float-right btn btn-outline-primary" type="submit">Search</button>
+</form>
+<div th:replace="index :: body"></div>
+</body>
+</html>

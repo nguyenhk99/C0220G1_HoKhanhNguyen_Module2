@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+<h1 style="text-align: center">My Blog</h1>
+<table  class="table" border="1">
+    <thead class="thead-dark">
+    <tr th:each="cate : ${cateGoryList}">
+        <th scope="col" >
+            <a th:text="${cate.nameCateGory}" th:href="@{/blog/category/__${cate.getId()}__}">
+             </a>
+        </th>
+    </tr>
+    </thead>
+</table>
+<!--        <select >-->
+<!--            <option th:each="cate: ${cateGoryList}">-->
+<!--                <a th:text="${cate.nameCateGory}" th:href="@{/blog/category/__${cate.getId()}__}"></a>-->
+<!--            </option>-->
+<!--        </select>-->
+
+<!--    <option><a href="http://localhost:8080/blog">...</a></option>-->
+<!--    <option><a href="http://localhost:8080/blog">...</a></option>-->
+<!--</select>-->
+
+<!--</select>-->
+
+<table class="table" border="1">
+    <thead class="thead-dark">
+    <tr style="text-align: center">
+        <th scope="col">STT</th>
+        <th scope="col">Tittle</th>
+        <th scope="col">Content</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="blog,blogs : ${blog}" style="text-align: center">
+        <th th:text="${blogs.count}"></th>
+        <td><a th:text="${blog.tittle}" th:href="@{/blog/view/__${blog.id}__}" style="text-align: center;"></a></td>
+        <td style="max-width: 150px; text-align: center" th:text="${blog.text}"></td>
+        <td><a th:href="@{/blog/edit/__${blog.id}__}">Edit</a></td>
+        <td><a th:href="@{/blog/delete/__${blog.id}__}">Delete</a></td>
+    </tr>
+    </tbody>
+</table>
+<form th:action="@{/blog}">
+    <input th:name="search" type="text" placeholder="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form>
+<div>
+    <a th:href="@{/blog(page=${blog.number - 1}, search=${search})}" th:if="${blog.hasPrevious()}">Previous</a>
+    <span th:text="${blog.number + 1} "></span>/
+    <span th:text="${blog.totalPages}"></span>
+    <a th:href="@{/blog(page=${blog.number + 1}, search=${search})}" th:if="${blog.hasNext()}">Next</a>
+</div>
+<a th:href="@{/blog/create}">Create new Blog</a>
+
+</body>
+</html>

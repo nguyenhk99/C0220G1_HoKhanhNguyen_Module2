@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="index:: head">
+    <style>
+        input {
+            background: none;
+            border: 1px solid;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+<form th:object="${contract}" th:action="@{/contract/create}" method="post">
+<!--    <input type="hidden" th:field="*{idContract}">-->
+    <table style="width: 1000px;text-align: center;height: 200px;left: 20%;top: 20%;position: absolute"
+           class="table table-striped" border="1">
+        <thead>
+        <tr style="background: #7abaff;color: white">
+            <th scope="col">Employye Name</th>
+            <th scope="col">Customer Name</th>
+            <th scope="col">Service Name</th>
+            <th scope="col">Date Start</th>
+            <th scope="col">Date End</th>
+            <th scope="col">Deposits</th>
+            <th scope="col">Total Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <th:block>
+            <tr>
+                <th><select style="background: none;border: 1px solid white;height: 33px" th:field="*{nhanvien.id}">
+                    <option th:each="employee1 : ${employee}"
+                            th:value="${employee1.id}" th:text="${employee1.name}"></option>
+                </select></th>
+                <th><select style="background: none;border: 1px solid white;height: 33px"
+                            th:field="*{khachhang.idCustomer}">
+                    <option th:each="customer1 : ${customer}"
+                            th:value="${customer1.idCustomer}" th:text="${customer1.name}"></option>
+                </select></th>
+                <th><select style="background: none;border: 1px solid white;height: 33px"
+                            th:field="*{dichvu.idService}">
+                    <option th:each="service1 : ${service}"
+                            th:value="${service1.idService}" th:text="${service1.name}"></option>
+                </select></th>
+                <th><input style="background: none;border: 1px solid white;width: 100px;" th:field="*{dateStart}"></th>
+                <th><input style="background: none;border: 1px solid white;width: 100px;" th:field="*{dateEnd}"></th>
+                <th><input style="background: none;border: 1px solid white;width: 100px;" th:field="*{deposits}"></th>
+                <th><input style="background: none;border: 1px solid white;height: 33px" th:field="*{totalPrice}"></th>
+            </tr>
+        </th:block>
+        </tbody>
+        <tr th:if="${#fields.hasErrors()}">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th><span th:if="${#fields.hasErrors('dateStart')}" th:errors="*{dateStart}"></span></th>
+            <th><span th:if="${#fields.hasErrors('dateEnd')}" th:errors="*{dateEnd}"></span></th>
+            <th><span th:if="${#fields.hasErrors('deposits')}" th:errors="*{deposits}"></span></th>
+            <th><span th:if="${#fields.hasErrors('totalPrice')}" th:errors="*{totalPrice}"></span></th>
+        </tr>
+    </table>
+
+    <th:block>
+        <input style="position: absolute;left: 65%;top: 50%;background: none;border: #7abaff"
+               class="btn btn-primary mb-2"
+               type="submit" value="Create New Contract">
+    </th:block>
+</form>
+<div th:replace="index :: body"></div>
+</body>
+</html>

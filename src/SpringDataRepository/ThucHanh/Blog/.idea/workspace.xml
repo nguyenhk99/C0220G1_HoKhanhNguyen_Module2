@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a363a51d-e17b-4452-ba00-96bc22a27cd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.idea/modules/C02G_Spring_ORM.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/build/classes/java/main/com/codegym/controllers/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/build/classes/java/main/com/codegym/models/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/build/classes/java/main/com/codegym/repositorys/StudentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/build/classes/java/main/com/codegym/repositorys/impl/StudentRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/build/classes/java/main/com/codegym/services/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/build/classes/java/main/com/codegym/services/impl/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/build/libs/C02G_Spring_ORM-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/java/com/codegym/controllers/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/java/com/codegym/models/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/java/com/codegym/repositorys/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/java/com/codegym/repositorys/impl/StudentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/java/com/codegym/services/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/java/com/codegym/services/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/webapp/WEB-INF/views/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/C02G_Spring_ORM/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__mysql_mysql_connector_java_8_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_10_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_10_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__ognl_ognl_3_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_9_0_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_4_15_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_2_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_aop_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_aspects_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_beans_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_context_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_core_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_expression_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_jcl_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_jdbc_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_orm_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_test_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_tx_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_web_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/libraries/Gradle__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/modules/customer-manager-springboot.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/modules/customer-manager-springboot.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-manager-springboot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manager-springboot/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manager-springboot/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manager-springboot/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manager-springboot/src/main/resources/templates/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manager-springboot/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manager-springboot/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manager-springboot/src/main/resources/templates/province/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manager-springboot/src/main/resources/templates/province/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manager-springboot/src/main/resources/templates/province/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manager-springboot/src/main/resources/templates/province/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-manager-springboot/src/main/resources/templates/province/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phantrang/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phantrang/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phantrang/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phantrang/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phantrang/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phantrang/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phantrang/src/main/resources/templates/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phantrang/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../phantrang/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/build/classes/java/main/com/codegym/cms/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/build/classes/java/main/com/codegym/cms/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/build/classes/java/main/com/codegym/cms/repository/CustomerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/build/classes/java/main/com/codegym/cms/repository/CustomerRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/build/classes/java/main/com/codegym/cms/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/build/classes/java/main/com/codegym/cms/service/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/build/libs/customer-management-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/build/libs/customer-management-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/java/com/codegym/cms/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/java/com/codegym/cms/repository/CustomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/java/com/codegym/cms/repository/CustomerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/java/com/codegym/cms/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/webapp/WEB-INF/views/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/webapp/WEB-INF/views/customer/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/webapp/WEB-INF/views/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CSDLVaORM/ThucHanh/customer-management/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringController/BaiTap/MayTinhCaNhan/src/controller/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringController/BaiTap/MayTinhCaNhan/src/controller/CalculatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringController/BaiTap/MayTinhCaNhan/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringController/BaiTap/MayTinhCaNhan/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/build/libs/QuanLySanPham-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ViewsAndThymeleaf/BaiTap/QuanLySanPham/build/libs/QuanLySanPham-1.0-SNAPSHOT.war" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1cCVs4Q2SSO1MT1x0FcZsAr8O0V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a363a51d-e17b-4452-ba00-96bc22a27cd8" name="Default Changelist" comment="" />
+      <created>1590032765133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590032765133</updated>
+      <workItem from="1590032767419" duration="114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

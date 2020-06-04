@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="index:: head">
+    <style>
+        input {
+            background: none;
+            border: 1px solid;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+<form th:object="${details}" th:action="@{/details/create}" method="post">
+    <table style="width: 1000px;text-align: center;height: 200px;left: 16%;top: 20%;position: absolute"
+           class="table table-striped" border="1">
+        <thead>
+        <tr style="background: #7abaff;color: white">
+            <th scope="col">Accompanied Service</th>
+            <th scope="col">id Contract</th>
+            <th scope="col">Amount</th>
+        </tr>
+        </thead>
+        <tbody>
+        <th:block>
+            <tr>
+                <th><select style="background: none;border: 1px solid white;height: 33px" th:field="*{dichvudikem.idAccompaniedService}">
+                    <option th:each="accompaniedService1 : ${accompaniedService}"
+                            th:value="${accompaniedService1.idAccompaniedService}" th:text="${accompaniedService1.nameAccompaniedService}"></option>
+                </select></th>
+                <th><select style="background: none;border: 1px solid white;height: 33px" th:field="*{hopDong.idContract}">
+                    <option th:each="contract1 : ${contract}"
+                            th:value="${contract1.idContract}" th:text="${contract1.idContract}"></option>
+                </select></th>
+                <th><input style="background: none;border: 1px solid white;width: 100px;" th:field="*{count}"></th>
+            </tr>
+        </th:block>
+        </tbody>
+        <!--        <tr th:if="${#fields.hasErrors()}">-->
+        <!--            <th><span th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span></th>-->
+        <!--            <th><span th:if="${#fields.hasErrors('dayOfBirth')}" th:errors="*{dayOfBirth}"></span></th>-->
+        <!--            <th><span th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}"></span></th>-->
+        <!--            <th><span th:if="${#fields.hasErrors('cmnd')}" th:errors="*{cmnd}"></span></th>-->
+        <!--            <th><span th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}"></span></th>-->
+        <!--            <th><span th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></span></th>-->
+        <!--            <th><span th:if="${#fields.hasErrors('address')}" th:errors="*{address}"></span></th>-->
+        <!--        </tr>-->
+    </table>
+    <!--    <th:block th:if="${#fields.hasErrors()}">-->
+    <!--        <input style="position: absolute;left: 65%;top: 60%;background: none;border: #7abaff" class="btn btn-primary mb-2"-->
+    <!--               type="submit" value="Create New Contract">-->
+    <!--    </th:block>-->
+    <th:block th:unless="${#fields.hasErrors()}">
+        <input style="position: absolute;left: 65%;top: 50%;background: none;border: #7abaff" class="btn btn-primary mb-2"
+               type="submit" value="Create New Contract">
+    </th:block>
+</form>
+<div th:replace="index :: body"></div>
+</body>
+</html>

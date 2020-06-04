@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Input PhoneNumber</title>
+</head>
+<body>
+<form style="left: 10px;position: absolute" th:object="${user}" th:method="post" th:action="@{/}">
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validationServer06">First name</label>
+            <input type="text" class="form-control is-invalid" id="validationServer06" th:field="*{firstName}">
+            <div class="invalid-feedback">
+                <span th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}"></span>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="validationServer05">Last name</label>
+            <input type="text" class="form-control is-invalid" id="validationServer05" th:field="*{lastName}">
+            <div class="invalid-feedback">
+                <span th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"></span>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="validationServerUsername">Age</label>
+            <div class="input-group">
+                <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Age" th:field="*{age}" >
+                <div class="invalid-feedback">
+                    <span th:if="${#fields.hasErrors('age')}" th:errors="*{age}"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-6 mb-3">
+            <label for="validationServer03">Email</label>
+            <input type="text" class="form-control is-invalid" id="validationServer03" th:field="*{email}">
+            <div class="invalid-feedback">
+                <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></span>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <label for="validationServer04">Phone Number</label>
+            <input type="text" class="form-control is-invalid" id="validationServer04" th:field="*{phoneNumber}">
+            <div class="invalid-feedback">
+                <span th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}"></span>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Register</button>
+</form>
+</body>
+</html>

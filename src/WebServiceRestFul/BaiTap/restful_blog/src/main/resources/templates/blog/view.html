@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+<h2 th:text="${blog.tittle}" style="color: black;text-align: center"></h2>
+<table class="table" border="1" style="text-align: center">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">Text</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><h4 th:text="${blog.text}"></h4></td>
+    </tr>
+    </tbody>
+</table>
+<h3 style="color: black">
+    <button><a style="color: black" th:href="@{/blog}">Back To Blog List</a></button>
+</h3>
+</body>
+</html>

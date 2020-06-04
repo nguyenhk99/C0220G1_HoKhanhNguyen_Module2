@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="index:: head">
+</head>
+<style>
+    a.page1:hover {
+        background-color: #7abaff;
+    }
+
+    button.create1:hover {
+        background-color: #7abaff;
+    }
+
+    th, td {
+        color: white;
+    }
+</style>
+<body>
+<table style="width: 1000px;text-align: center;height: 300px;left: 20%;top: 20%;position: absolute"
+       class="table table-striped" border="1">
+    <thead>
+    <tr style="background: #7abaff;color: white">
+        <th scope="col">Accompanied Service</th>
+        <th scope="col">id Contract</th>
+        <th scope="col">Amount</th>
+    </tr>
+    </thead>
+    <tbody>
+    <th:block th:each="details1 : ${details}">
+        <tr>
+            <th style="width: 150px" th:text="${details1.dichvudikem.nameAccompaniedService}"></th>
+            <td th:text="${details1.hopDong.idContract}"></td>
+            <td th:text="${details1.count}"></td>
+        </tr>
+    </th:block>
+    </tbody>
+</table>
+<div style="position: absolute;left: 48%;top: 61%">
+    <a class="page1" style="color: white" th:href="@{/details(page=${details.number - 1})}"
+       th:if="${details.hasPrevious()}">Previous</a>
+    <a class="page1" th:href="@{/details(page=${details.number})}"
+       th:text="${details.number+1}"></a>/
+    <!--    <a class="page1"style="color: white"th:href="@{/customer(page=${khachhang.number +1 })}" th:text="${khachhang.totalPages}" th:if="${khachhang.totalPages>=3}">-->
+    <!--        <th:block th:text="/">-->
+    <!--        </th:block></a>-->
+    <a class="page1" style="color: white" th:href="@{/details(page=${details.totalPages - 1})}"
+       th:text="${details.totalPages}"></a>
+    <a class="page1" style="color: white" th:href="@{/details(page=${details.number + 1})}"
+       th:if="${details.hasNext()}">Next</a>
+</div>
+<a style="position: absolute;left: 65%;top: 61%" th:href="@{/details/create}">
+    <button style="background: none;border: #7abaff" class="btn btn-primary mb-2">Create New Detail</button>
+</a>
+<div th:replace="index :: body"></div>
+</body>
+</html>

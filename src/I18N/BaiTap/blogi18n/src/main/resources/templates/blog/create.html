@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+<h1 style="text-align: center">Create Blog</h1>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form style="text-align: center;" th:action="@{/blog/create}" th:object="${blog}" method="post">
+    <table class="table" >
+        <thead class="thead-dark">
+        <tr>
+            <th  style="width: 200px" scope="col" >Tittle</th>
+            <th style="" scope="col">Text</th>
+            <th style="" scope="col">CateGory</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><input type="text" th:field="*{tittle}" style="width: 200px"/></td>
+            <td><input style="width: 500px" type="text" th:field="*{text}"/></td>
+            <td><select th:field="*{cateGory}">
+                <option th:each="cate : ${cateGoryList}"
+                        th:value="${cate.id}" th:text="${cate.nameCateGory}"></option>
+            </select></td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="table" border="1">
+        <tr>
+            <th></th>
+        </tr>
+    </table>
+    <h3><input type="submit" value="Create Blog"></h3>
+</form>
+<h3 style="color: black">
+    <button><a style="color: black" th:href="@{/blog}">Back To Blog List</a></button>
+</h3>
+</body>
+</html>

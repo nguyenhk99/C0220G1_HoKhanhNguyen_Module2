@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <title>Input PhoneNumber</title>
+</head>
+<body>
+<form th:action="@{/}" th:object="${user}"
+      method="POST">
+    <table>
+        <tr>
+            <td>Account</td>
+            <td><input type="text" th:field="*{name}"/></td>
+        </tr>
+        <tr>
+            <td>PassWord</td>
+            <td><input type="text" th:field="*{password}"/></td>
+        </tr>
+        <tr>
+            <td>PassWord2</td>
+            <td><input type="text" th:field="*{password2}"/></td>
+            <td th:if="${#fields.hasErrors('password2')}" th:errors="*{password2}">Name Error</td>
+        </tr>
+    </table>
+    <button type="submit">submit</button>
+</form>
+</body>
+</html>

@@ -15,7 +15,10 @@ import java.util.List;
 
 @Controller
 public class CustomerController {
-    CustomerService customerService = new CustomerServiceImpl();
+
+    @Autowired
+    CustomerService customerService;
+
     @GetMapping("/create-customer")
     public ModelAndView showCreateForm(){
         ModelAndView modelAndView = new ModelAndView("/customer/create");
@@ -33,7 +36,7 @@ public class CustomerController {
         return modelAndView;
     }
 
-    @GetMapping("/customers")
+    @GetMapping("/customer")
     public ModelAndView listCustomers(){
         List<Customer> customers = customerService.findAll();
         ModelAndView modelAndView = new ModelAndView("/customer/list");
@@ -62,5 +65,25 @@ public class CustomerController {
         modelAndView.addObject("customer", customer);
         modelAndView.addObject("message", "Customer updated successfully");
         return modelAndView;
+    }
+
+    @GetMapping("/delete-customer/{id}")
+    public ModelAndView showDeleteForm(@PathVariable Long id){
+        Customer customer = customerService.findById(id);
+        if(customer != null) {
+            ModelAndView modelAndView = new ModelAndView("/customer/delete");
+            modelAndView.addObject("customer", customer);
+            return modelAndView;
+
+        }else {
+            ModelAndView modelAndView = new ModelAndView("/error.404");
+            return modelAndView;
+        }
+    }
+
+    @PostMapping("/delete-customer")
+    public String deleteCustomer(@ModelAttribute("customer") Customer customer){
+        customerService.remove(customer.getId());
+        return "redirect:customers";
     }
 }

@@ -24,7 +24,7 @@
     <input type="submit" name="button" value="Division(/)">
 </form>
 <c:if test="${result!=null}">
-<h1><c:out value="Result Division: ${result}"></c:out></h1>
+    <h1><c:out value="Result Division: ${result}"></c:out></h1>
 </c:if>
 </body>
 </html>

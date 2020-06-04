@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../SpringDataRepository/ThucHanh/customer-manager-springboot/customer-manager-springboot.iml" filepath="$PROJECT_DIR$/../../../SpringDataRepository/ThucHanh/customer-manager-springboot/customer-manager-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customer-manager-springboot.main.iml" filepath="$PROJECT_DIR$/.idea/modules/customer-manager-springboot.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customer-manager-springboot.test.iml" filepath="$PROJECT_DIR$/.idea/modules/customer-manager-springboot.test.iml" />
+    </modules>
+  </component>
+</project>

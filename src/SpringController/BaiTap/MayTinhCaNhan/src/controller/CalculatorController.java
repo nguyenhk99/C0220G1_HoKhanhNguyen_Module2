@@ -10,6 +10,7 @@ import service.Calculator;
 
 @Controller
 public class CalculatorController {
+
     @Autowired
     Calculator calculator;
 

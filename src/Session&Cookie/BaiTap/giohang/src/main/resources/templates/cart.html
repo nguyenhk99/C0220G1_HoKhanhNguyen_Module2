@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head >
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a th:href="@{/}">Back to Product List</a>
+<center>
+<h1>Giỏ Hàng</h1>
+    <h2>ToTal Price</h2>
+    <h3 th:text="${cart.getTotalPrice()}"></h3>
+    <form th:action="@{/buy}">
+    <table border="1" style="text-align: center" th:if="${cart}">
+        <tr>
+            <td th:each="cart2: ${cart.getProductMap()}">
+                    <img th:src="${cart2.getValue().getImg()}" style="width: 200px;height: 300px">
+            </td>
+        </tr>
+        <tr>
+            <td th:each="cart2: ${cart.getProductMap()}">
+                <p th:text="${cart2.getValue().getName()}"></p>
+            </td>
+        </tr>
+        <tr>
+            <td th:each="cart2: ${cart.getProductMap()}">
+                <p th:text="${cart2.getValue().getPrice()}">
+                </p>
+                <a th:href="@{/downproduct/__${cart2.getKey()}__}" >
+                    <img style="width: 20px;height: 20px" th:src="@{https://pluspng.com/img-png/subtraction-png-hd-delete-forbidden-minus-no-entry-remove-subtract-subtraction-icon-512.png}">
+                </a>
+                <span th:text="${cart2.getValue().getCount()}">
+                </span>
+                <a th:href="@{/upproduct/__${cart2.getKey()}__}" >
+                    <img style="width: 20px;height: 20px" th:src="@{https://kenh14cdn.com/A3YmnWqkHeph7OwGyu6TwbX57tgTw/Image/2012/03/120320kpbieutuong06_8f682.jpg}">
+                </a>
+            </td>
+        </tr>
+    </table>
+        <input type="submit" value="Buy">
+    </form>
+</center>
+</body>
+</html>
