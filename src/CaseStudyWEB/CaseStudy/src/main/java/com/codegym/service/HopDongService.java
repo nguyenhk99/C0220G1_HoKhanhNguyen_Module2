@@ -14,7 +14,7 @@ public interface HopDongService {
 
     void save(HopDong hopDong);
 
-    Page<HopDong> findAllByDateEnd(Date date,Pageable pageable) throws ParseException;
+    List<HopDong> findAllByDateEnd(Date date) throws ParseException;
 
     HopDong findById(Integer id);
 }

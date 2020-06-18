@@ -1,5 +1,6 @@
 package com.codegym.controller;
 
+import com.codegym.model.DichVu;
 import com.codegym.model.HopDong;
 import com.codegym.model.KhachHang;
 import com.codegym.repository.HopDongRepository;
@@ -9,6 +10,7 @@ import com.codegym.service.KhachHangService;
 import com.codegym.service.NhanVienService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
@@ -35,46 +37,51 @@ public class HopDongController {
     DichVuService dichVuService;
 
     @RequestMapping("/contract")
-    public ModelAndView contractlist(@PageableDefault(size = 3)Pageable pageable){
+    public ModelAndView contractlist(@PageableDefault(size = 3) Pageable pageable) {
         ModelAndView modelAndView = new ModelAndView("contract/contractlist");
-        modelAndView.addObject("contract",hopDongService.findAll(pageable));
+        modelAndView.addObject("contract", hopDongService.findAll(pageable));
         return modelAndView;
     }
 
     @GetMapping("/contract/create")
-    public ModelAndView addNewContract(Pageable pageable){
+    public ModelAndView addNewContract(Pageable pageable) {
         ModelAndView modelAndView = new ModelAndView("contract/addcontract");
-        modelAndView.addObject("contract",new HopDong());
-        modelAndView.addObject("employee",nhanVienService.findAll(pageable));
-        modelAndView.addObject("customer",khachHangService.findAll(pageable));
-        modelAndView.addObject("service",dichVuService.findAll(pageable));
+        modelAndView.addObject("contract", new HopDong());
+        modelAndView.addObject("employee", nhanVienService.findAll(pageable));
+        modelAndView.addObject("customer", khachHangService.findAll(pageable));
+        modelAndView.addObject("service", dichVuService.findAll(pageable));
         return modelAndView;
     }
 
     @PostMapping("/contract/create")
-    public ModelAndView addNewContract( @Valid @ModelAttribute("contract") HopDong hopDong, BindingResult bindingResult, @PageableDefault(size = 3)Pageable pageable, HttpServletResponse response){
-        if(bindingResult.hasErrors()){
+    public ModelAndView addNewContract(@Valid @ModelAttribute("contract") HopDong hopDong, BindingResult bindingResult, @PageableDefault(size = 3) Pageable pageable, HttpServletResponse response) {
+        if (bindingResult.hasErrors()) {
             ModelAndView modelAndView = new ModelAndView("contract/addcontract");
-            modelAndView.addObject("employee",nhanVienService.findAll(pageable));
-            modelAndView.addObject("customer",khachHangService.findAll(pageable));
-            modelAndView.addObject("service",dichVuService.findAll(pageable));
+            modelAndView.addObject("employee", nhanVienService.findAll(pageable));
+            modelAndView.addObject("customer", khachHangService.findAll(pageable));
+            modelAndView.addObject("service", dichVuService.findAll(pageable));
             return modelAndView;
-        }else {
+        } else {
             hopDongService.save(hopDong);
-            response.addCookie(new Cookie("service",dichVuService.findById(hopDong.getDichvu().getIdService()).getName()));
+            response.addCookie(new Cookie("service", dichVuService.findById(hopDong.getDichvu().getIdService()).getName()));
             ModelAndView modelAndView = new ModelAndView("contract/contractlist");
             modelAndView.addObject("contract", hopDongService.findAll(pageable));
             return modelAndView;
         }
-
     }
 
     @RequestMapping("/contract/customerusingservice")
-    public ModelAndView customerusingservice(Pageable pageable) throws ParseException {
+    public ModelAndView customerusingservice(@PageableDefault(size = 3)Pageable pageable) throws ParseException {
         Date date = new Date();
-        Page<HopDong> hopDongs = hopDongService.findAllByDateEnd(date, pageable);
+        List<HopDong> hopDongs = hopDongService.findAllByDateEnd(date);
+        int startIndex = (int) pageable.getOffset();
+        int endIndex = (int) ((pageable.getOffset() + pageable.getPageSize()) > hopDongs.size() ?
+                hopDongs.size() :
+                pageable.getOffset() + pageable.getPageSize());
+        Page<HopDong> page = new PageImpl<>(hopDongs.subList(startIndex, endIndex), pageable, hopDongs.size());
+
         ModelAndView modelAndView = new ModelAndView("contract/customerusingservice");
-        modelAndView.addObject("contractservice",hopDongs);
+        modelAndView.addObject("contractservice", page);
         return modelAndView;
     }
 }

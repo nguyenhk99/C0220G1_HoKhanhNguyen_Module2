@@ -45,16 +45,16 @@
     </tbody>
 </table>
 <div style="position: absolute;left: 48%;top: 61%">
-    <a class="page1" style="color: white" th:href="@{/contract/contractservice(page=${contractservice.number - 1})}"
+    <a class="page1" style="color: white" th:href="@{/contract/customerusingservice(page=${contractservice.number - 1})}"
        th:if="${contractservice.hasPrevious()}">Previous</a>
-    <a class="page1" th:href="@{/contract/contractservice(page=${contractservice.number})}"
+    <a class="page1" th:href="@{/contract/customerusingservice(page=${contractservice.number})}"
        th:text="${contractservice.number+1}"></a>/
     <!--    <a class="page1"style="color: white"th:href="@{/customer(page=${khachhang.number +1 })}" th:text="${khachhang.totalPages}" th:if="${khachhang.totalPages>=3}">-->
     <!--        <th:block th:text="/">-->
     <!--        </th:block></a>-->
-    <a class="page1" style="color: white" th:href="@{/contract/contractservice(page=${contractservice.totalPages - 1})}"
+    <a class="page1" style="color: white" th:href="@{/contract/customerusingservice(page=${contractservice.totalPages - 1})}"
        th:text="${contractservice.totalPages}"></a>
-    <a class="page1" style="color: white" th:href="@{/contract/contractservice(page=${contractservice.number + 1})}"
+    <a class="page1" style="color: white" th:href="@{/contract/customerusingservice(page=${contractservice.number + 1})}"
        th:if="${contractservice.hasNext()}">Next</a>
 </div>
 <a style="position: absolute;left: 65%;top: 61%" th:href="@{/contract/create}">

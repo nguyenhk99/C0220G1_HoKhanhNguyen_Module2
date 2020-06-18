@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"
+          type="text/css">
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+        th {
+            text-align: center;
+        }
+
+        input {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+<div class="container" style="text-align: center">
+    <h3>Danh Sách Sản phẩm</h3>
+</div>
+<a th:href="@{/product/add}">Thêm mơi sản phẩm</a>
+<center>
+<div class="panel-body">
+    <table border="1px">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        </thead>
+        <tbody th:each="product1 : ${product}">
+        <tr>
+            <th th:text="${product1.nameProduct}"></th>
+            <th th:text="${product1.productType.nameType}"></th>
+            <th>
+                <a th:href="@{/product/edit/__${product1.idProduct}__}">Edit</a>
+            </th>
+            <th>
+                <a th:href="@{/product/delete/__${product1.idProduct}__}">Delete</a>
+            </th>
+        </tr>
+        </tbody>
+    </table>
+</div>
+    <form th:action="@{/product}" method="get">
+        <input th:name="search" type="text" placeholder="Search">
+        <button class="float-right btn btn-outline-primary" type="submit">Search</button>
+    </form>
+</center>
+</body>
+</html>

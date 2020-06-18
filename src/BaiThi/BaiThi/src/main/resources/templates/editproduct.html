@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"
+          type="text/css">
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+        th {
+            text-align: center;
+        }
+
+        input {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <form th:object="${product}" th:action="@{/product/edit}" method="post">
+        <input type="hidden" th:field="*{idProduct}">
+        <h3>Sửa Thông Tin Sản Phẩm</h3>
+        <div class="panel-body">
+            <table border="1px">
+                <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Text</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th><input th:field="*{nameProduct}"></th>
+                    <th><select th:field="*{productType.id}">
+                        <option th:each="producttype1 : ${producttype}"
+                                th:value="${producttype1.id}" th:text="${producttype1.nameType}"></option>
+                    </select></th>
+                    <th><input th:field="*{price}"></th>
+                    <th><input th:field="*{amount}"></th>
+                    <th><input th:field="*{text}"></th>
+                </tr>
+                </tbody>
+                <tr th:if="${#fields.hasErrors()}">
+                    <th><span th:if="${#fields.hasErrors('nameProduct')}" th:errors="*{nameProduct}"></span></th>
+                    <th></th>
+                    <th><span th:if="${#fields.hasErrors('price')}" th:errors="*{price}"></span></th>
+                    <th><span th:if="${#fields.hasErrors('amount')}" th:errors="*{amount}"></span></th>
+                    <th><span th:if="${#fields.hasErrors('text')}" th:errors="*{text}"></span></th>
+                </tr>
+            </table>
+        </div>
+        <div class="panel-footer">
+            <div class="row">
+                <div class="col col-xs-7">
+                    <ul class="pagination hidden-xs pull-right">
+                        <div class="col col-xs-6 text-right">
+                            <button type="submit">Thay Đổi</button>
+                            <a th:href="@{/product}">Thoát</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </form>
+</center>
+</body>
+</html>

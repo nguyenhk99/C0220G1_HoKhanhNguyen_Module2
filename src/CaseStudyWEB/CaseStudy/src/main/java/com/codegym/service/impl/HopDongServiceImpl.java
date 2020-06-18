@@ -34,16 +34,15 @@ public class HopDongServiceImpl implements HopDongService {
     }
 
     @Override
-    public Page<HopDong> findAllByDateEnd(Date date, Pageable pageable) throws ParseException {
+    public List<HopDong> findAllByDateEnd(Date date) throws ParseException {
         List<HopDong> hopDongs = new LinkedList<>();
 
-        for (HopDong hopdong : hopDongRepository.findAll(pageable)) {
+        for (HopDong hopdong : hopDongRepository.findAll()) {
             if (new SimpleDateFormat("yyyy-MM-dd").parse(hopdong.getDateEnd()).after(date)) {
                 hopDongs.add(hopdong);
             }
         }
-        Page<HopDong> hopDongs1 = new PageImpl<>(hopDongs);
-        return hopDongs1;
+        return hopDongs;
     }
 
     @Override

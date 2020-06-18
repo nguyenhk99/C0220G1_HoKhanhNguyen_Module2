@@ -45,7 +45,6 @@ public class KhachHangController {
         return modelAndView;
     }
 
-
     @GetMapping("/customer/create")
     public ModelAndView createCustomer() {
         ModelAndView modelAndView = new ModelAndView("customer/addcustomer");
@@ -55,15 +54,13 @@ public class KhachHangController {
     }
 
     @PostMapping("/customer/create")
-    public ModelAndView createCustomer(@Valid @ModelAttribute("khachhang") KhachHang khachHang, BindingResult bindingResult,Pageable pageabe) {
-
+    public ModelAndView createCustomer(@Valid @ModelAttribute("khachhang") KhachHang khachHang, BindingResult bindingResult) {
         if(bindingResult.hasErrors()){
             ModelAndView modelAndView = new ModelAndView("customer/addcustomer");
             modelAndView.addObject("loaikhach",loaiKhachService.findAll());
             return modelAndView;
         }else {
             khachHangService.save(khachHang);
-
             return new ModelAndView("redirect:/customer");
         }
     }

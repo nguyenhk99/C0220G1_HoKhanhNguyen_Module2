@@ -108,12 +108,12 @@ public class DichVuController {
     @RequestMapping("service/like")
     public ModelAndView listService(@PageableDefault(size = 3) Pageable pageable,@ModelAttribute("servicelike") List<DichVu> dichVus) {
         ModelAndView modelAndView = new ModelAndView("service/listlike");
-//        PagedListHolder page = new PagedListHolder(dichVus);
-//        page.setPageSize(pageable.getPageNumber());
-//        page.setPage(pageable.getPageNumber());
-        Page<DichVu> page = new PageImpl<>(dichVus, pageable, dichVus.size());
+        int startIndex = (int) pageable.getOffset();
+        int endIndex = (int) ((pageable.getOffset() + pageable.getPageSize()) > dichVus.size() ?
+                dichVus.size() :
+                pageable.getOffset() + pageable.getPageSize());
+        Page<DichVu> page = new PageImpl<>(dichVus.subList(startIndex, endIndex), pageable, dichVus.size());
         modelAndView.addObject("page", page);
-
         return modelAndView;
     }
 }
